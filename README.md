@@ -1,4 +1,4 @@
-# spam-email-classifier
+# Spam-Email-Classifier
 
 - Developed a Spam Email Classifier using Python, NLP, and Scikit-learn on the SpamAssassin dataset.
 - Implemented email parsing, text preprocessing, stemming, and word-frequency feature extraction, followed by Random Forest classification.
