@@ -1,5 +1,6 @@
 # Spam-Email-Classifier
 
-- Developed a Spam Email Classifier using Python, NLP, and Scikit-learn on the SpamAssassin dataset.
-- Implemented email parsing, text preprocessing, stemming, and word-frequency feature extraction, followed by Random Forest classification.
-- Achieved 95.66% 5-fold cross-validation accuracy, 98.29% precision, and 90.77% recall.
+- Developed a machine learning–based spam email classifier using the SpamAssassin public corpus.
+- Implemented an end-to-end NLP pipeline including email parsing, HTML/text extraction, text normalization, URL and number replacement, and Porter stemming, followed by word-frequency feature extraction.
+- Trained a Random Forest classifier and evaluated it using cross-validation, precision, and recall.
+- Achieved 95.5% cross-validation accuracy, with 97.3% precision and 96.0% recall after optimizing the classification threshold to 0.45.
